@@ -27,6 +27,9 @@ function operate(num1, num2, operator) {
     }
 }
 
+function updateDisplay(input) {
+    display.textContent = `${input}`;
+}
 
 
 
@@ -43,10 +46,9 @@ function operate(num1, num2, operator) {
 
 
 
+const display = document.querySelector(".display");
 
-
-
-
+updateDisplay("3");
 
 
 
